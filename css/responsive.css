@@ -1,0 +1,92 @@
+@media screen and (max-width:1035px) {
+
+    /* body{
+        background-color: rgb(255, 220, 225);
+    } */
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        height: 5vh;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 5px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin: -25px 0;
+    }
+
+    .search {
+        justify-content: center;
+        margin: 18px 0px 10px 0px;
+    }
+
+    .search input {
+        width: 28vw;
+    }
+
+    .search button {
+        width: 5vw;
+        height: 3.5vh;
+    }
+
+    .slide {
+        height: 20vh;
+    }
+
+    .offer {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .cards {
+        justify-content: flex-start;
+    }
+
+    .card-item img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    body {
+        background: rgb(255, 233, 237);
+    }
+
+    .logo {
+        margin: 0px 0px 12px 0px;
+    }
+
+    .search input {
+        width: 45vw;
+    }
+
+    .search button {
+        height: 7.5vw;
+        width: 12vw;
+    }
+
+    .slide {
+        width: 70vw;
+        margin: 15px auto -50px auto;
+    }
+    .container h2{
+        font-size: larger;
+    }
+    .offpara {
+            font-size: large;
+    }
+    .card .some-margin-1{
+        font-size: large;
+    }
+    .card-item img{
+        width: 80px;
+    }
+    .card-item .lines{
+        font-size: small;
+    }
+}

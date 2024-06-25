@@ -1,0 +1,48 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 3.5px 0 6px 1px;
+    color: rgb(243, 243, 243);
+    border-radius: 5px;
+    border: 2px solid rgb(220, 220, 220);
+    background-color: var(--main-bg-color);
+    cursor: pointer;
+}
+.some-margin-1{
+    margin: 10px 0;
+}
+.some-margin-2{
+    margin: 5px 0;
+}
+.text-center{
+    text-align: center;
+}
+@keyframes progBar {
+    0%{
+        width: 0vw;
+    }
+    50%{
+        width: 80vw;
+    }
+    99.9%{
+        width: 100vw;
+    }
+    100%{
+        width: 0vw;
+    }
+}
+@keyframes bigSmall {
+    0%{
+        color: rgb(0, 0, 251);
+    }
+    50%{
+        color: brown;
+    }
+    100%{
+        color: yellow;
+    }
+}
